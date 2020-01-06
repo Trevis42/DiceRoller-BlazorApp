@@ -5,7 +5,7 @@ const swInstallEvent = 'install';
 const swInstalledEvent = 'installed';
 const swActivateEvent = 'activate';
 const staticCachePrefix = 'blazor-cache-v';
-const staticCacheName = 'blazor-cache-v3.2';
+const staticCacheName = 'blazor-cache-v3.3';
 const requiredFiles = [
 "/_framework/blazor.boot.json",
 "/_framework/blazor.webassembly.js",
@@ -62,6 +62,7 @@ const requiredFiles = [
 "/images/roll_dice_invert.png",
 "/index.html",
 "/sample-data/weather.json",
+"/_redirects.txt",
 "/ServiceWorkerRegister.js",
 "/manifest.json"
 ];
