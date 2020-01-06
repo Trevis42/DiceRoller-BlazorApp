@@ -4,13 +4,19 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <RazorLangVersion>3.0</RazorLangVersion>
   </PropertyGroup>
+
+  <PropertyGroup Label="PWA">
+    <ServiceWorkerForce>true</ServiceWorkerForce>
+    <ServiceWorkerRegisterInstallableType>installable-blazor</ServiceWorkerRegisterInstallableType>
+    <ServiceWorkerBlazorAssembly>blazor-app-01</ServiceWorkerBlazorAssembly>
+    <ServiceWorkerBlazorInstallMethod>InstallPwaPrompt</ServiceWorkerBlazorInstallMethod>
+  </PropertyGroup>
   
   <PropertyGroup>
-	<ServiceWorkerCacheVersion>1</ServiceWorkerCacheVersion>
-    <ServiceWorkerForce>true</ServiceWorkerForce>
-    
-    <ServiceWorkerRegisterInstallableType>installable-blazor</ServiceWorkerRegisterInstallableType>
-    
+    <ServiceWorkerIgnoreHosts>'localhost'</ServiceWorkerIgnoreHosts>
+  </PropertyGroup>
+  
+  <PropertyGroup>  
     <ManifestShortName>Dice Roller</ManifestShortName>
     <ManifestLongName>Blazor Dice Roller</ManifestLongName>
   </PropertyGroup>

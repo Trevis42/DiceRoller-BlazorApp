@@ -3,12 +3,9 @@
 
 @if (Installable)
 {
-    <div class="row justify-content-center">
-        <div class="install-prompt col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
-            <span>Install app?</span>
-            <button class="installButton btn btn-primary" @onclick="@(() => InstallClicked())">Yes</button>
-            <button class="cancelButton btn btn-danger" @onclick="@(()=>Installable=false)">No</button>
-        </div>
+    <div class="fixed-bottom w-100 alert alert-dark d-flex align-items-center" @onclick="InstallClicked">
+        <h3>Install this app?</h3>
+        <small class="ml-auto mr-1 rounded-pill"><button @onclick="@(()=>Installable=false)">X</button></small>
     </div>
 }
 
@@ -29,21 +26,27 @@
 @code
 {
     static bool Installable = false;
-    static Action OnInstallable;
+    static Action ml;
     protected override void OnInitialized()
     {
-        OnInstallable = () => InvokeAsync(StateHasChanged);
+        ml = () => InvokeAsync(StateHasChanged);
     }
-    [JSInvokable]
-    public static Task PWAInstallable()
+
+    [JSInvokable("InstallPwaPrompt")]
+    // a named method so that it is easy to call from JS Interop
+    // with the following config
+    // <ServiceWorkerRegisterInstallableType>installable-blazor</ServiceWorkerRegisterInstallableType>
+    // <ServiceWorkerBlazorAssembly>TestPwa.Client</ServiceWorkerBlazorAssembly>
+    // <ServiceWorkerBlazorInstallMethod>InstallPwaPrompt</ServiceWorkerBlazorInstallMethod>
+    public static Task InstallPwaPrompt()
     {
         Installable = true;
-        OnInstallable.Invoke();
+        ml.Invoke();
         return Task.CompletedTask;
     }
-    ValueTask InstallClicked()
+    async void InstallClicked(MouseEventArgs args)
     {
         Installable = false;
-        return JSRuntime.InvokeVoidAsync("BlazorPWA.installPWA");
+        await JSRuntime.InvokeAsync<object>("BlazorPWA.installPWA");//this name comes from the nuget package that generates the pwa code, don't change it unless you change the generated code
     }
 }

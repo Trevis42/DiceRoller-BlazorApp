@@ -2,8 +2,9 @@ const serviceWorkerFileName = '/ServiceWorker.js';
 const swInstalledEvent = 'installed';
 const staticCachePrefix = 'blazor-cache-v';
 const updateAlertMessage = 'Update available. Reload the page when convenient.';
+const ignoreHosts = ['localhost'];
 const blazorAssembly = 'blazor-app-01';
-const blazorInstallMethod = 'PWAInstallable';
+const blazorInstallMethod = 'InstallPwaPrompt';
 window.updateAvailable = new Promise(function (resolve, reject) {
     var { hostname } = window.location;
     if (typeof ignoreHosts !== 'undefined') {
