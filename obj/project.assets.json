@@ -1147,7 +1147,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TEMP\\.nuget\\packages\\": {}
+    "C:\\Users\\TTaylor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1155,11 +1155,11 @@
       "projectUniqueName": "C:\\Users\\TTaylor\\TP Training Code and Stuff\\Python and Other stuff\\blazor-app-01\\blazor-app-01.csproj",
       "projectName": "blazor-app-01",
       "projectPath": "C:\\Users\\TTaylor\\TP Training Code and Stuff\\Python and Other stuff\\blazor-app-01\\blazor-app-01.csproj",
-      "packagesPath": "C:\\Users\\TEMP\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\TTaylor\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\TTaylor\\TP Training Code and Stuff\\Python and Other stuff\\blazor-app-01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TEMP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TTaylor\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

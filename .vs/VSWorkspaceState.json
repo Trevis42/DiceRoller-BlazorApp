@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\obj",
+    "\\obj\\Debug",
+    "\\obj\\Debug\\netstandard2.1",
+    "\\obj\\Debug\\netstandard2.1\\Razor",
+    "\\obj\\Debug\\netstandard2.1\\staticwebassets",
+    "\\obj\\Release\\netstandard2.1",
+    "\\obj\\Release\\netstandard2.1\\RazorDeclaration",
+    "\\Pages"
+  ],
+  "SelectedNode": "\\blazor-app-01.sln",
+  "PreviewInSolutionExplorer": false
+}

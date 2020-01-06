@@ -116,8 +116,26 @@ input:checked + .slider:before {
   border-radius: 50%;
 } 
 
-
-
+.install-prompt {
+    background-color: #54595f;
+    color: #fff;
+    position: fixed;
+    bottom: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    font-size: 1.5rem;
+    border-radius: .25rem;
+    z-index: 99;
+}
+    .install-prompt .installButton {
+        margin-left: auto;
+        width: 4em;
+    }
+ 
+    .install-prompt .cancelButton {
+        margin-left: 0.3rem;
+        width: 4em;
+    }
 
 app {
     position: relative;

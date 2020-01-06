@@ -54,7 +54,6 @@ C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\bin\Debug\netstandard2.1\System.Text.Encodings.Web.dll
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\bin\Debug\netstandard2.1\System.Text.Json.dll
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\bin\Debug\netstandard2.1\System.Threading.Tasks.Extensions.dll
-C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\blazor-app-01.csprojAssemblyReference.cache
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\staticwebassets\blazor-app-01.StaticWebAssets.Manifest.cache
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\staticwebassets\blazor-app-01.StaticWebAssets.xml
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\blazor-app-01.RazorComponent.input.cache

@@ -1,6 +1,6 @@
 {
-  "short_name": "blazor-app-01",
-  "name": "blazor-app-01",
+  "short_name": "Dice Roller",
+  "name": "Blazor Dice Roller",
   "start_url": "/",
   "display": "standalone",
   "icons": [

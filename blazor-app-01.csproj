@@ -4,6 +4,16 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <RazorLangVersion>3.0</RazorLangVersion>
   </PropertyGroup>
+  
+  <PropertyGroup>
+	<ServiceWorkerCacheVersion>1</ServiceWorkerCacheVersion>
+    <ServiceWorkerForce>true</ServiceWorkerForce>
+    
+    <ServiceWorkerRegisterInstallableType>installable-blazor</ServiceWorkerRegisterInstallableType>
+    
+    <ManifestShortName>Dice Roller</ManifestShortName>
+    <ManifestLongName>Blazor Dice Roller</ManifestLongName>
+  </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="BlazorPWA.MSBuild" Version="1.0.2">
