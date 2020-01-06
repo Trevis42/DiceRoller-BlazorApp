@@ -1,13 +1,4 @@
 ﻿@inherits LayoutComponentBase
-@inject  IJSRuntime JSRuntime
-
-@if (Installable)
-{
-    <div class="fixed-bottom w-100 alert alert-dark d-flex align-items-center" @onclick="InstallClicked">
-        <h3>Install this app?</h3>
-        <small class="ml-auto mr-1 rounded-pill"><button @onclick="@(()=>Installable=false)">X</button></small>
-    </div>
-}
 
 <div class="sidebar">
     <NavMenu />
@@ -23,30 +14,3 @@
     </div>
 </div>
 
-@code
-{
-    static bool Installable = false;
-    static Action ml;
-    protected override void OnInitialized()
-    {
-        ml = () => InvokeAsync(StateHasChanged);
-    }
-
-    [JSInvokable("InstallPwaPrompt")]
-    // a named method so that it is easy to call from JS Interop
-    // with the following config
-    // <ServiceWorkerRegisterInstallableType>installable-blazor</ServiceWorkerRegisterInstallableType>
-    // <ServiceWorkerBlazorAssembly>TestPwa.Client</ServiceWorkerBlazorAssembly>
-    // <ServiceWorkerBlazorInstallMethod>InstallPwaPrompt</ServiceWorkerBlazorInstallMethod>
-    public static Task InstallPwaPrompt()
-    {
-        Installable = true;
-        ml.Invoke();
-        return Task.CompletedTask;
-    }
-    async void InstallClicked(MouseEventArgs args)
-    {
-        Installable = false;
-        await JSRuntime.InvokeAsync<object>("BlazorPWA.installPWA");//this name comes from the nuget package that generates the pwa code, don't change it unless you change the generated code
-    }
-}

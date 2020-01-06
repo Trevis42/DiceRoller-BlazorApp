@@ -8,10 +8,8 @@
   </PropertyGroup>
 
   <PropertyGroup Label="PWA">
-    <ServiceWorkerCacheVersion>2</ServiceWorkerCacheVersion>
-    <ServiceWorkerRegisterInstallableType>installable-blazor</ServiceWorkerRegisterInstallableType>
+    <ServiceWorkerCacheVersion>3.2</ServiceWorkerCacheVersion>
     <ServiceWorkerBlazorAssembly>blazor-app-01</ServiceWorkerBlazorAssembly>
-    <ServiceWorkerBlazorInstallMethod>InstallPwaPrompt</ServiceWorkerBlazorInstallMethod>
     <ServiceWorkerIgnoreHosts>'localhost'</ServiceWorkerIgnoreHosts>
   </PropertyGroup>
   
