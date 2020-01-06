@@ -60,7 +60,6 @@ C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\blazor-app-01.RazorComponent.input.cache
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\RazorDeclaration\App.razor.g.cs
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
@@ -84,9 +83,10 @@ C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\Razor\App.razor.g.cs
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\Razor\Pages\Counter.razor.g.cs
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\Razor\Pages\DiceRoller.razor.g.cs
-C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\Razor\Pages\FetchData.razor.g.cs
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\Razor\Pages\Index.razor.g.cs
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\Razor\Shared\MainLayout.razor.g.cs
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\Razor\Shared\NavMenu.razor.g.cs
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\Razor\_Imports.razor.g.cs
+C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\RazorDeclaration\Pages\RollHistory.razor.g.cs
+C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\Razor\Pages\RollHistory.razor.g.cs

@@ -7,7 +7,7 @@
 
 @if (forecasts == null)
 {
-    <p><em>Loading...</em></p>
+    <p><em>WIP please check back later</em></p>
 }
 else
 {
@@ -39,7 +39,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+        forecasts = null;
     }
 
     public class WeatherForecast
