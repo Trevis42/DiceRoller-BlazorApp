@@ -114,7 +114,12 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
-} 
+}
+
+div.fixed-bottom.w-100.alert.alert-dark.d-flex.align-items-center h3 {
+    margin-left: 20%;
+}
+
 
 app {
     position: relative;
