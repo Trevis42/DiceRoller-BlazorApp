@@ -89,3 +89,4 @@ C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\blazor-app-01.pdb
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\blazor\linker.descriptor.xml
 C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\blazor\blazor.boot.json
+C:\Users\TTaylor\TP Training Code and Stuff\Python and Other stuff\blazor-app-01\obj\Debug\netstandard2.1\blazor-app-01.csprojAssemblyReference.cache
