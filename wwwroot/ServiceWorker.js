@@ -12,7 +12,6 @@ const requiredFiles = [
 "/_framework/wasm/mono.js",
 "/_framework/wasm/mono.wasm",
 "/_framework/_bin/blazor-app-01.dll",
-"/_framework/_bin/blazor-app-01.pdb",
 "/_framework/_bin/Microsoft.AspNetCore.Authorization.dll",
 "/_framework/_bin/Microsoft.AspNetCore.Blazor.dll",
 "/_framework/_bin/Microsoft.AspNetCore.Blazor.HttpClient.dll",
