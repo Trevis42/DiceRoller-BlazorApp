@@ -113,7 +113,7 @@
             RollTotal = 1;
         }
 
-        RollResults = $" Results: {Quantity} {DiceName}: {ShowList(rolls)} + {Modifier01} + {Modifier02} || Total:{RollTotal}";
+        RollResults = $" Results: {Quantity} {DiceName}: {ShowList(rolls)}{(Modifier01 != 0 ?" + "+ Modifier01:"")}{(Modifier02 != 0 ?" + "+ Modifier02:"")} || Total:{RollTotal}";
         RollTotal = 0;
     }
 

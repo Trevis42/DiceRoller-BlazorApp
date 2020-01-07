@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <PropertyGroup Label="PWA">
-    <ServiceWorkerCacheVersion>1.10</ServiceWorkerCacheVersion>
+    <ServiceWorkerCacheVersion>1.2</ServiceWorkerCacheVersion>
     <ServiceWorkerBlazorAssembly>blazor-app-01</ServiceWorkerBlazorAssembly>
     <ServiceWorkerIgnoreHosts>'localhost'</ServiceWorkerIgnoreHosts>
   </PropertyGroup>
